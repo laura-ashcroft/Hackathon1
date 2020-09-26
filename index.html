@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rock, Paper, Scissors</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="main.css">
+    </head>
+
+    <body>
+        <!-- player input
+       Display result somewhere
+       Display stats
+       Button to start
+       -->
+       <div>
+           <h1>Rock Paper Scissors</h1>
+           <hr>
+            <input type="text" id="text" placeholder="Enter your name..."><br>
+            <input type="radio" id="rock" name="game" value="rock">
+            <label for="rock">Rock</label><br>
+            <input type="radio" id="paper" name="game" value="paper">
+            <label for="paper">Paper</label><br>
+            <input type="radio" id="scissors" name="game" value="scissors">
+            <label for="scissors">Scissors</label><br>
+
+            <h3 id="resultArea"></h3>
+            <h4 id="gamesWon"></h4>
+            <h4 id="gamesLost"></h4>
+            <h4 id="gamesDrawn"></h4>
+            <h4 id="score"></h4>
+            <h4 id="gamesPlayed"></h4>
+
+            <button id="go">Go</button>
+       </div>
+       
+
+
+
+        <script src="main.js"></script>
+    </body>
+    
+</html>
